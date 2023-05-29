@@ -13,7 +13,9 @@ const UpoladSchema= mongoose.Schema({
     },
     img:{
        type: 'Buffer',
-       require: "true"
+       require: "true",
+       unique: "true",
+
     },
     date:{
         type: "string",
